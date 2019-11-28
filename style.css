@@ -1,12 +1,14 @@
 /* Global Typography */
 
-h1, h2, h3, h4, h5, h6, .navbar-brand{font-family: 'Fredoka One', cursive !important;}
-p,  ul,  ol,  li,  table,  address,  blockquote,  cite, header .navbar .navbar-nav .nav-item {font-family: 'Raleway', sans-serif !important;}
-
+h1, h2, h3, h4, h5, h6, .navbar-brand{font-family: 'Fredoka One', cursive !important; color:#484848;}
+p,  ul,  ol,  li,  table,  address,  blockquote,  cite, header .navbar .navbar-nav .nav-item {font-family: 'Raleway', sans-serif !important; color:#484848;}
 
 /* Global Styling */
 body { border:16px solid #f67272;}
 @media(max-width:991px) {body {border:none;}}
+
+/* Typography Helper Classes */
+.text-red {color:#f67272 !important;}
 
 /* Header / Nav Styling */
 header .navbar {border-bottom: 1px solid #f1f1f1;}
