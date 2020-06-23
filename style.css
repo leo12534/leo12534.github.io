@@ -3,11 +3,11 @@ h1, h2, h3, h4, h5, h6, .navbar-brand{font-family: 'Fredoka One', cursive !impor
 p,  ul,  ol,  li,  table,  address,  blockquote,  cite, header .navbar .navbar-nav .nav-item {font-family: 'Raleway', sans-serif !important; color:#484848;}
 
 /* Global Styling */
-body { border:16px solid #f67272;}
+body { border:16px solid #ff4d5a;}
 @media(max-width:991px) {body {border:none;}}
 
 /* Typography Helper Classes */
-.text-red {color:#f67272 !important;}
+.text-red {color:#ff4d5a !important;}
 
 /* GLobal CTA Button */
 .btn-event {background-color:#ff4d5a; font-family: 'Raleway', sans-serif !important; color:#fff; font-weight:600; font-size:1em; padding:1em 2em; letter-spacing:.1em; transition: all .2s ease-out;}
@@ -16,12 +16,12 @@ body { border:16px solid #f67272;}
 /* Header / Nav Styling */
 header .navbar {border-bottom: 1px solid #f1f1f1;}
 header .navbar-toggler-icon {background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(246,114,114, .95)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");}
-header .rounded-brand { justify-content: center; align-items: center; border-radius: 100%; text-align: center; display: flex; background-color: #f67272; width:65px;height:65px; margin-right:10px;}
+header .rounded-brand { justify-content: center; align-items: center; border-radius: 100%; text-align: center; display: flex; background-color: #ff4d5a; width:65px;height:65px; margin-right:10px;}
 header .rounded-brand h2 {color:#fff; margin-bottom:0px;}
 header .navbar-brand strong {font-size:2.5em;letter-spacing:1.5px;color: #484848;}
 header .navbar-nav .nav-item {color: #484848; letter-spacing:1px; font-size:1.1em;}
 header .navbar-nav .nav-item:hover {color: #ffb3b3;}
-header .navbar-nav .nav-item.active{font-weight: 800;color: #f67272;}
+header .navbar-nav .nav-item.active{font-weight: 800;color: #ff4d5a;}
 
 /* Work Samples Section*/
 .samples-work{background-color:#29083a;}
